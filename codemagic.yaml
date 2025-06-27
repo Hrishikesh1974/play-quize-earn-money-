@@ -4,8 +4,6 @@ workflows:
     max_build_duration: 20
     environment:
       flutter: stable
-      xcode: latest
-      android: true
     scripts:
       - name: Install dependencies
         script: |
